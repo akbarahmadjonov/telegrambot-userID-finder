@@ -1,5 +1,5 @@
 require("dotenv/config");
-const { Bot, InlineKeyboard, Keyboard } = require("grammy");
+const { Bot, InlineKeyboard } = require("grammy");
 const Io = require("./utils/Io");
 const Users = new Io("./db/users.json");
 
