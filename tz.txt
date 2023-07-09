@@ -1,0 +1,7 @@
+CREATE JSON
+
+✅ Store user data in the database
+✅ Store user ID and store in database and return to user
+....
+
+❗FEEL FREE TO ASK QUESTIONS OR ANY ERRORS

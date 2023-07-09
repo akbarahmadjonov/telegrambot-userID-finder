@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "grammy": "^1.17.2",
+    "nodemon": "^3.0.1"
+  },
+  "name": "getmyid-tgbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon src/app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
