@@ -26,7 +26,7 @@ bot.command("start", async (ctx) => {
   const { id, username } = ctx.from;
 
   // Checks if there is text in request body
-  const message = ctx.from.message?.text;
+  const message = ctx.from.message ? ctx.from.message.text : undefined;
 
   // Check if there is user already in database if not creates
   const userData = await Users.read();
