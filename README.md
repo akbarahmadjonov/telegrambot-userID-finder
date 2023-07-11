@@ -25,7 +25,7 @@ To set up the Button Click Bot project, follow these steps:
 
    ```
    $ git clone https://github.com/your-username/button-click-bot.git
-   $ cd button-click-bot
+   $ cd IdFindbot
    ```
 
 2. Install the dependencies using your preferred package manager. For example, using npm:
