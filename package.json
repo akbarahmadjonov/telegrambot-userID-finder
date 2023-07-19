@@ -2,12 +2,12 @@
   "dependencies": {
     "dotenv": "^16.3.1",
     "grammy": "^1.17.2",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "text-encoding": "^0.7.0"
   },
   "name": "getmyid-tgbot",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "start": "node src/app",
     "dev": "nodemon src/app"

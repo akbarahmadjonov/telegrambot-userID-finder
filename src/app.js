@@ -2,8 +2,13 @@ require("dotenv/config");
 const { Bot, InlineKeyboard } = require("grammy");
 const Io = require("./utils/Io");
 const Users = new Io("./db/users.json");
+const { TextEncoder } = require("text-encoding");
 
 const bot = new Bot(process.env.TOKEN);
+
+const text = "Hello, world!";
+const encoder = new TextEncoder();
+const encodedText = encoder.encode(text);
 
 //* Shows developers
 bot.command("behindscene", async (ctx) => {
